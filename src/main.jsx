@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Layout from "./Layout"
-import { Feed, VideoDetail, ChannelDetail, SearchFeed} from "./components/index"
+import { Feed, VideoDetail, ChannelDetail, SearchFeed} from "./pages/pages"
 import { Route,RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 
 const router = createBrowserRouter(
